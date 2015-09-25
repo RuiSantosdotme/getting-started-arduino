@@ -6,11 +6,11 @@
 //initializing our variables
 int potPin = A2;    // select the input pin for the potentiometer
 int ledPin1 = 3;      // select the pin for the LEDs
-int ledPin2=5;
-int ledPin3=8;
-int ledPin4=11;
+int ledPin2 = 5;
+int ledPin3 = 8;
+int ledPin4 = 11;
 int sensorValue = 0;  // variable to store the value coming from the sensor
-int ledValue=0;
+int ledValue = 0;
 
 void setup() {
   Serial.begin(9600); // initializing serial connection
