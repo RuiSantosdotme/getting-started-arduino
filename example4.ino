@@ -5,7 +5,7 @@
 
 int ledPin = 9;           
 int ledBrightness = 0;   
-int sensorPin = A2;     
+int sensorPin = A0;     
 int sensorValue = 0;     
     
 void setup(void) {
