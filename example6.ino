@@ -12,9 +12,7 @@ int button =7;
 int crossTime=5000;
 unsigned long changeTime;
 
-
 void setup() {
-  Serial.begin(9600);
   // here we are initializing our pins as outputs
   pinMode(redCar, OUTPUT);
   pinMode(yellowCar, OUTPUT);
@@ -39,7 +37,6 @@ void loop() {
     //call the function to change the lights
     changeLights();
   }
-  Serial.println(state);
 }
 
 void changeLights() {
