@@ -9,6 +9,7 @@ int sensorPin = A0;
 int sensorValue = 0;     
     
 void setup(void) {
+  pinMode(ledPin, OUTPUT);
   // We'll send debugging information via the Serial monitor
   Serial.begin(9600);   
 }
